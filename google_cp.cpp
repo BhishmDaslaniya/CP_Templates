@@ -40,7 +40,7 @@ template <class T> void print_me(vector <T> v);
 template <class T> void print_me(set <T> v);
 template <class T, class V> void print_me(map <T, V> v);
 template <class T> void print_me(multiset <T> v);
-template <class T, class V> void print_me(pair <T, V> p) {cerr << "{"; print_me(p.ff); cerr << ","; print_me(p.ss); cerr << "}";}
+template <class T, class V> void print_me(pair <T, V> p) {cerr << "{"; print_me(p.fi); cerr << ","; print_me(p.se); cerr << "}";}
 template <class T> void print_me(vector <T> v) {cerr << "[ "; for (T i : v) {print_me(i); cerr << " ";} cerr << "]";}
 template <class T> void print_me(set <T> v) {cerr << "[ "; for (T i : v) {print_me(i); cerr << " ";} cerr << "]";}
 template <class T> void print_me(multiset <T> v) {cerr << "[ "; for (T i : v) {print_me(i); cerr << " ";} cerr << "]";}
